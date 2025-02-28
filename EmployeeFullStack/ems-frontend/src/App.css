@@ -1,0 +1,10 @@
+.footer {
+  background-color: #343a40;  /* Dark Gray Background */
+  color: white;               /* White Text */
+  text-align: center;         /* Center Align Text */
+  padding: 15px 0;            /* Top and Bottom Padding */
+  position: fixed;            /* Fixed at Bottom */
+  bottom: 0;                  /* Stick to Bottom */
+  width: 100%;                /* Full Width */
+  font-size: 14px;            /* Font Size */
+}

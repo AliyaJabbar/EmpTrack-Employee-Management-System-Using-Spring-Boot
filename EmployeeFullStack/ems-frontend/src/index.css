@@ -1,0 +1,5 @@
+html, body {
+  font-size: 18px;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Light gray background */
+}
