@@ -19,7 +19,7 @@ const ListEmployeeComponent = () => {
     function updateEmployee(id) {
         navigate(`/update-employee/${id}`);  // ✅ FIXED NAVIGATION
     }
-
+   
     return (
         <div className="container">
             <h2 className="text-center">List of Employees</h2>
@@ -44,8 +44,15 @@ const ListEmployeeComponent = () => {
                             <td>
                                 <button className='btn btn-warning' onClick={() => updateEmployee(employee.id)}>
                                     Update
-                                </button>
-                            </td>
+                                </button> 
+                                
+    
+    <button className='btn btn-danger mx-2' onClick={() => 
+        navigate(`/delete-employee/${employee.id}`)}>
+        Delete
+    </button>
+</td>
+             
                         </tr>
                     ))}
                 </tbody>
